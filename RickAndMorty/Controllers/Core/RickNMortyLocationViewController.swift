@@ -6,6 +6,7 @@
 //
 
 import UIKit
+///Controller to show and search all/any locations
 
 final class RickNMortyLocationViewController: UIViewController {
 

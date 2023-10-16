@@ -6,6 +6,7 @@
 //
 
 import UIKit
+///Controller to show and search all/any episodes
 
 final class RickNMortyEpisodeViewController: UIViewController {
 

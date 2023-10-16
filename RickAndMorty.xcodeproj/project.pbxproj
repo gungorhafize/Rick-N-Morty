@@ -19,6 +19,13 @@
 		8EAFF3C62ADD64CB00D73AD2 /* RickNMortyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3C52ADD64CB00D73AD2 /* RickNMortyLocationViewController.swift */; };
 		8EAFF3C82ADD64EC00D73AD2 /* RickNMortyEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3C72ADD64EC00D73AD2 /* RickNMortyEpisodeViewController.swift */; };
 		8EAFF3CA2ADD650D00D73AD2 /* RickNMortySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3C92ADD650D00D73AD2 /* RickNMortySettingsViewController.swift */; };
+		8EAFF3CC2ADDEBA400D73AD2 /* RickNMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3CB2ADDEBA400D73AD2 /* RickNMortyService.swift */; };
+		8EAFF3CE2ADDEBBF00D73AD2 /* RickNMortyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3CD2ADDEBBF00D73AD2 /* RickNMortyRequest.swift */; };
+		8EAFF3D02ADDED2F00D73AD2 /* RickNMortyEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3CF2ADDED2F00D73AD2 /* RickNMortyEndpoint.swift */; };
+		8EAFF3D22ADEBBF500D73AD2 /* RickNMortyOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3D12ADEBBF500D73AD2 /* RickNMortyOrigin.swift */; };
+		8EAFF3D42ADEBC9000D73AD2 /* RickNMortySingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3D32ADEBC9000D73AD2 /* RickNMortySingleLocation.swift */; };
+		8EAFF3D62ADEBEAC00D73AD2 /* RickNMortyCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3D52ADEBEAC00D73AD2 /* RickNMortyCharacterStatus.swift */; };
+		8EAFF3D82ADEBF5900D73AD2 /* RickNMortyCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFF3D72ADEBF5900D73AD2 /* RickNMortyCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,13 @@
 		8EAFF3C52ADD64CB00D73AD2 /* RickNMortyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyLocationViewController.swift; sourceTree = "<group>"; };
 		8EAFF3C72ADD64EC00D73AD2 /* RickNMortyEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyEpisodeViewController.swift; sourceTree = "<group>"; };
 		8EAFF3C92ADD650D00D73AD2 /* RickNMortySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortySettingsViewController.swift; sourceTree = "<group>"; };
+		8EAFF3CB2ADDEBA400D73AD2 /* RickNMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyService.swift; sourceTree = "<group>"; };
+		8EAFF3CD2ADDEBBF00D73AD2 /* RickNMortyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyRequest.swift; sourceTree = "<group>"; };
+		8EAFF3CF2ADDED2F00D73AD2 /* RickNMortyEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyEndpoint.swift; sourceTree = "<group>"; };
+		8EAFF3D12ADEBBF500D73AD2 /* RickNMortyOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyOrigin.swift; sourceTree = "<group>"; };
+		8EAFF3D32ADEBC9000D73AD2 /* RickNMortySingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortySingleLocation.swift; sourceTree = "<group>"; };
+		8EAFF3D52ADEBEAC00D73AD2 /* RickNMortyCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyCharacterStatus.swift; sourceTree = "<group>"; };
+		8EAFF3D72ADEBF5900D73AD2 /* RickNMortyCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,10 @@
 				8EAFF3BB2ADD633600D73AD2 /* RickNMortyLocation.swift */,
 				8EAFF3BD2ADD636B00D73AD2 /* RickNMortyCharacter.swift */,
 				8EAFF3BF2ADD638700D73AD2 /* RickNMortyEpisode.swift */,
+				8EAFF3D12ADEBBF500D73AD2 /* RickNMortyOrigin.swift */,
+				8EAFF3D32ADEBC9000D73AD2 /* RickNMortySingleLocation.swift */,
+				8EAFF3D52ADEBEAC00D73AD2 /* RickNMortyCharacterStatus.swift */,
+				8EAFF3D72ADEBF5900D73AD2 /* RickNMortyCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,6 +140,9 @@
 		8EAFF3B92ADD61FA00D73AD2 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				8EAFF3CB2ADDEBA400D73AD2 /* RickNMortyService.swift */,
+				8EAFF3CD2ADDEBBF00D73AD2 /* RickNMortyRequest.swift */,
+				8EAFF3CF2ADDED2F00D73AD2 /* RickNMortyEndpoint.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -220,13 +241,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EAFF3C32ADD649500D73AD2 /* RickNMortyCharViewController.swift in Sources */,
+				8EAFF3D42ADEBC9000D73AD2 /* RickNMortySingleLocation.swift in Sources */,
+				8EAFF3CE2ADDEBBF00D73AD2 /* RickNMortyRequest.swift in Sources */,
 				8EAFF3A52ADD5CA900D73AD2 /* RickNMortyTabViewController.swift in Sources */,
 				8EAFF3A12ADD5CA900D73AD2 /* AppDelegate.swift in Sources */,
 				8EAFF3C62ADD64CB00D73AD2 /* RickNMortyLocationViewController.swift in Sources */,
+				8EAFF3CC2ADDEBA400D73AD2 /* RickNMortyService.swift in Sources */,
 				8EAFF3BC2ADD633600D73AD2 /* RickNMortyLocation.swift in Sources */,
 				8EAFF3CA2ADD650D00D73AD2 /* RickNMortySettingsViewController.swift in Sources */,
+				8EAFF3D02ADDED2F00D73AD2 /* RickNMortyEndpoint.swift in Sources */,
+				8EAFF3D82ADEBF5900D73AD2 /* RickNMortyCharacterGender.swift in Sources */,
+				8EAFF3D22ADEBBF500D73AD2 /* RickNMortyOrigin.swift in Sources */,
 				8EAFF3BE2ADD636B00D73AD2 /* RickNMortyCharacter.swift in Sources */,
 				8EAFF3A32ADD5CA900D73AD2 /* SceneDelegate.swift in Sources */,
+				8EAFF3D62ADEBEAC00D73AD2 /* RickNMortyCharacterStatus.swift in Sources */,
 				8EAFF3C82ADD64EC00D73AD2 /* RickNMortyEpisodeViewController.swift in Sources */,
 				8EAFF3C02ADD638700D73AD2 /* RickNMortyEpisode.swift in Sources */,
 			);
