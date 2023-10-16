@@ -6,6 +6,7 @@
 //
 
 import UIKit
+///Controller to show app config options
 
 final class RickNMortySettingsViewController: UIViewController {
 

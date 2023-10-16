@@ -7,6 +7,7 @@
 
 import UIKit
 
+///Controller to show and search all/any characters
 final class RickNMortyCharViewController: UIViewController {
 
     override func viewDidLoad() {

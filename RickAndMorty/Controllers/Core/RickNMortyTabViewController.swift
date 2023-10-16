@@ -7,6 +7,7 @@
 
 import UIKit
 
+///Controller to all tabs and root tab controllers
 final class RickNMortyTabViewController: UITabBarController {
 
     override func viewDidLoad() {
