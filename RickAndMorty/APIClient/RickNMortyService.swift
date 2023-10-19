@@ -18,8 +18,12 @@ final class RickNMortyService{
     ///API Call
     ///Paremeters:
     ///request: Request instance
+    ///type: The type of object that we expect to get back
     ///completion :  callback with success (data) or error
-    public func execute(_ request: RickNMortyRequest, completion: @escaping () -> Void){
+    public func execute<T: Codable>(
+        _ request: RickNMortyRequest,
+        expecting type: T.Type,
+        completion: @escaping (Result<T, Error>) -> Void){
         
     }
 }

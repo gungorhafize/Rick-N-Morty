@@ -15,7 +15,16 @@ final class RickNMortyCharViewController: UIViewController {
 
         title = "Characters"
         view.backgroundColor = .systemBackground
-   
+     
+        RickNMortyService.shared.execute(.listCharacterRequests, expecting: String.self){
+            switch(result){
+            case .success(let model):
+                print(String(describing: model))
+            case .failure(let error):
+                print(String(describing: error))
+            }
+        }
+        
     }
     
 
