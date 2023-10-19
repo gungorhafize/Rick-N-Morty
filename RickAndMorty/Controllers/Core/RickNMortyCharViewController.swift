@@ -15,7 +15,19 @@ final class RickNMortyCharViewController: UIViewController {
 
         title = "Characters"
         view.backgroundColor = .systemBackground
-   
+        
+        let request =  RickNMortyRequest(endpoint : .character, queryParameters: [
+            URLQueryItem(name:"name", value: "rick"),
+            URLQueryItem(name:"status", value: "alive")
+            ]
+                                                                                  
+        )
+        print(request.url)
+        
+        RickNMortyService.shared.execute(request,
+                                         expecting: RickNMortyCharacter.self){result in
+            }
+        
     }
     
 
